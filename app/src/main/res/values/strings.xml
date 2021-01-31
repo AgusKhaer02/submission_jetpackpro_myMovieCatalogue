@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">My Movie Catalogue</string>
+
+    <string name="fr_title_movie">Movie</string>
+    <string name="fr_title_tvshow">TV Show</string>
+
+    <string name="title">Movie Title</string>
+    <string name="category">Category</string>
+    <string name="rating">4.1</string>
+    <string name="viewer">300</string>
+    <string name="tvshow_title">TV Show Title</string>
+    <string name="tvshow_category">Category</string>
+    <string name="tvshow_season">4 Seasons</string>
+
+    <string name="lorem">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Donec nibh nisl, congue at faucibus imperdiet,
+        ornare vitae sem. Vestibulum nec feugiat est.
+        Nulla ac arcu a metus gravida porttitor quis vitae erat.
+        Phasellus consectetur lacus eu mi vulputate vehicula.
+        Morbi porta malesuada fringilla. Nullam vitae dui placerat,
+        fringilla mi sit amet, convallis velit. Donec quis odio nunc.
+        Duis nisl leo, porttitor quis diam id, congue porta elit.
+    </string>
+    <string name="author">by Agus Kurniadin Khaer</string>
+
+
+</resources>
