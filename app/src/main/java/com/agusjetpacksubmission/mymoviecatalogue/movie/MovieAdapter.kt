@@ -39,6 +39,8 @@ class MovieAdapter : RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
             with(binding) {
                 tvTitle.text = movie.movieTitle
                 tvCategory.text = movie.movieCategory
+                tvRating.text = movie.rating.toString()
+                tvViewer.text = movie.viewer.toString()
 
                 itemView.setOnClickListener {
                     val intent = Intent(itemView.context, DetailActivity::class.java)
