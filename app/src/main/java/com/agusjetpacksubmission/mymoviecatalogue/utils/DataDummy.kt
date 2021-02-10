@@ -78,111 +78,126 @@ object DataDummy {
                 )
         )
 
+//      Call
         movies.add(
                 MovieEntity(
                         5,
-                        "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbUm8LBCI_sTQ_fS-ufqv8MPE4P6zMbcBBaMshKpzIsWsz-PqZ",
-                        "The Midnight Sky",
-                        "Sci-fi/Drama",
-                        "December 9, 2020",
-                        2.2,
-                        72,
-                        49,
-                        "George Clooney",
-                        "A lone scientist in the Arctic races to contact a crew of astronauts returning home to a mysterious global catastrophe.",
+                        "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Call_poster.jpg/220px-Call_poster.jpg",
+                        "Call",
+                        "Thriller/Fantasy",
+                        "November 27, 2020",
+                        4.6,
+                        200,
+                        94,
+                        "Lee Chung-hyeon",
+                        "Connected by phone in the same home but 20 years apart, a serial killer puts another woman's past -- and life -- on the line to change her own fate.",
                         "13+"
                 )
         )
+
+//      The Old Guard
         movies.add(
                 MovieEntity(
                         6,
-                        "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbUm8LBCI_sTQ_fS-ufqv8MPE4P6zMbcBBaMshKpzIsWsz-PqZ",
-                        "The Midnight Sky",
-                        "Sci-fi/Drama",
-                        "December 9, 2020",
+                        "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT2z3g2RjEekVFn-HAm9Ro6EtlRjU-7OWxPvMq_tSYKd7JyOEa6",
+                        "The Old Guard",
+                        "Action/Fantasy",
+                        "September 10, 2020",
                         2.2,
                         72,
                         49,
-                        "George Clooney",
-                        "A lone scientist in the Arctic races to contact a crew of astronauts returning home to a mysterious global catastrophe.",
+                        "Gina Prince-Bythewood",
+                        "A group of mercenaries, all centuries-old immortals with the ablity to heal themselves, discover someone is onto their secret, and they must fight to protect their freedom.",
                         "13+"
                 )
         )
+
+//      Joker
         movies.add(
                 MovieEntity(
                         7,
-                        "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbUm8LBCI_sTQ_fS-ufqv8MPE4P6zMbcBBaMshKpzIsWsz-PqZ",
-                        "The Midnight Sky",
-                        "Sci-fi/Drama",
-                        "December 9, 2020",
+                        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJKLiEyyz1Q9RC8EBYl3ijr3nuGeyO2ETmwy6Kdq0AQtD0elWD",
+                        "Joker",
+                        "Crime/Drama",
+                        "October 2, 2019",
                         2.2,
                         72,
                         49,
-                        "George Clooney",
-                        "A lone scientist in the Arctic races to contact a crew of astronauts returning home to a mysterious global catastrophe.",
+                        "Todd Phillips",
+                        "Joker is a 2019 American psychological thriller film directed and produced by Todd Phillips, who co-wrote the screenplay with Scott Silver. The film, based on DC Comics characters, stars Joaquin Phoenix as the Joker and provides an alternative origin story for the character. ",
                         "13+"
                 )
         )
+
+//      Aquaman
         movies.add(
                 MovieEntity(
                         8,
-                        "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbUm8LBCI_sTQ_fS-ufqv8MPE4P6zMbcBBaMshKpzIsWsz-PqZ",
-                        "The Midnight Sky",
+                        "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTGD0SFM5MwzWdQtgA5ssjVmHofb2ajsLcFR0q3pWBNLwf90D_a",
+                        "Aquaman",
                         "Sci-fi/Drama",
-                        "December 9, 2020",
+                        "December 21, 2018",
                         2.2,
                         72,
-                        49,
-                        "George Clooney",
-                        "A lone scientist in the Arctic races to contact a crew of astronauts returning home to a mysterious global catastrophe.",
+                        88,
+                        "James Wan",
+                        "Half-human, half-Atlantean Arthur is born with the ability to communicate with marine creatures. He goes on a quest to retrieve the legendary Trident of Atlan and protect the water world.",
                         "13+"
                 )
         )
+
+//      The Thinning
         movies.add(
                 MovieEntity(
                         9,
-                        "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbUm8LBCI_sTQ_fS-ufqv8MPE4P6zMbcBBaMshKpzIsWsz-PqZ",
-                        "The Midnight Sky",
-                        "Sci-fi/Drama",
-                        "December 9, 2020",
+                        "https://m.media-amazon.com/images/M/MV5BMTgxMDM2NjAyNl5BMl5BanBnXkFtZTgwODA1MTUyMDI@._V1_.jpg",
+                        "The Thinning",
+                        "Thriller",
+                        "October 12, 2016",
                         2.2,
                         72,
-                        49,
-                        "George Clooney",
-                        "A lone scientist in the Arctic races to contact a crew of astronauts returning home to a mysterious global catastrophe.",
+                        80,
+                        "Michael J. Gallagher",
+                        "In a dying world, population control is dictated by an aptitude test in high school. When two students discover the test is all smoke and mirrors and hiding a larger conspiracy, they go against the system to expose the conspiracy and take it down.",
                         "13+"
                 )
         )
+
+//      Sonic the Hedgehog
         movies.add(
                 MovieEntity(
                         10,
-                        "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbUm8LBCI_sTQ_fS-ufqv8MPE4P6zMbcBBaMshKpzIsWsz-PqZ",
-                        "The Midnight Sky",
-                        "Sci-fi/Drama",
-                        "December 9, 2020",
+                        "http://www.movienewsletters.net/photos/242898R1.jpg",
+                        "Sonic the Hedgehog",
+                        "Family/Comedy",
+                        "February 26, 2020",
                         2.2,
                         72,
                         49,
-                        "George Clooney",
-                        "A lone scientist in the Arctic races to contact a crew of astronauts returning home to a mysterious global catastrophe.",
+                        "Jeff Fowler",
+                        "An extraterrestrial hedgehog is discovered by a scientist with evil intentions and plans to use his superpowers for his selfish needs.",
                         "13+"
                 )
         )
+
+//      212 Warrior (Wiro Sableng Pendekar Kapak Maut Naga Geni 212)
         movies.add(
                 MovieEntity(
                         11,
-                        "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbUm8LBCI_sTQ_fS-ufqv8MPE4P6zMbcBBaMshKpzIsWsz-PqZ",
-                        "The Midnight Sky",
-                        "Sci-fi/Drama",
-                        "December 9, 2020",
+                        "https://m.media-amazon.com/images/M/MV5BY2QxZTgwMWEtMDE3ZC00YzAxLTllNjAtNmMyNmE2MTJkZDRhXkEyXkFqcGdeQXVyNzc4NjY1MTA@._V1_UY1200_CR104,0,630,1200_AL_.jpg",
+                        "212 Warrior (Wiro Sableng Pendekar Kapak Maut Naga Geni 212)",
+                        "Fantasy/Action",
+                        "August 30, 2018",
                         2.2,
                         72,
                         49,
-                        "George Clooney",
-                        "A lone scientist in the Arctic races to contact a crew of astronauts returning home to a mysterious global catastrophe.",
+                        "Sheila Timothy",
+                        "212 Warrior is a 2018 Indonesian action-comedy film based on the Wiro Sableng novel series by Bastian Tito. The movie is the first collaboration between an Indonesian studio with Fox International Production. A teaser for the film was released on 21 December 2017 throughout Indonesian theaters.",
                         "13+"
                 )
         )
+
+
         movies.add(
                 MovieEntity(
                         12,
@@ -401,6 +416,7 @@ object DataDummy {
     fun generateDummyTvShow() : List<TvShowEntity>{
         val tvShow = ArrayList<TvShowEntity>()
 
+//      Money Heist
         tvShow.add(
             TvShowEntity(
                 1,
@@ -410,103 +426,125 @@ object DataDummy {
                 4
             )
         )
+
+//      Riverdale
         tvShow.add(
             TvShowEntity(
-                1,
-                "https://occ-0-2008-769.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABUpJhujhQAvjWyEkzhf6Z3ChDyZHZChxm8Q_3C6818BjZB3TC6hZ6rW_EpKl4NSoA6QQF187BYhiwzTwd7lY79ERH6o6.jpg?r=a73",
-                "Money Heist",
-                "TV Thrillers",
+                2,
+                "https://joypixel.id/wp-content/uploads/2017/12/riverdale.png",
+                "Riverdale",
+                "Drama",
+                5
+            )
+        )
+
+//      Prison Break
+        tvShow.add(
+            TvShowEntity(
+                3,
+                "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/66fe4c393d24983d361e40b5498f16c142d21500ef9cc979080ee968b51c8dc7._UY500_UX667_RI_V_TTW_.jpg",
+                "Prison Break",
+                "Drama",
+                5
+            )
+        )
+
+//      Tayo the Little Bus
+        tvShow.add(
+            TvShowEntity(
+                4,
+                "https://static.wikia.nocookie.net/soundeffects/images/1/1b/14516.jpg/revision/latest?cb=20180619143130",
+                "Tayo the Little Bus",
+                "Child",
+                5
+            )
+        )
+
+//      Dark
+        tvShow.add(
+            TvShowEntity(
+                5,
+                "https://4.bp.blogspot.com/--Z1nqbEOgLA/XQtZ0cdTchI/AAAAAAAAgOg/QAitEmvmu9U-WmiygAAjlDapKy8uRBUewCLcBGAs/s1600/rsz_dark2.jpg",
+                "Dark",
+                "Mystery",
+                3
+            )
+        )
+
+//      The 100
+        tvShow.add(
+            TvShowEntity(
+                6,
+                "https://static.wikia.nocookie.net/thehundred/images/0/0d/The-100-poster.png/revision/latest?cb=20140410034446",
+                "The 100",
+                "Sci-fi",
+                7
+            )
+        )
+
+//      Hospital Playlist
+        tvShow.add(
+            TvShowEntity(
+                7,
+                "https://media.suara.com/pictures/970x544/2020/05/15/85463-hospital-playlist.jpg",
+                "Hospital Playlist",
+                "Drama",
+                1
+            )
+        )
+
+//      Narcos
+        tvShow.add(
+            TvShowEntity(
+                8,
+                "https://www.medellincitytours.com/wp-content/uploads/2018/07/419.jpg",
+                "Narcos",
+                "Crime",
+                3
+            )
+        )
+
+//      Sweet Home
+        tvShow.add(
+            TvShowEntity(
+                9,
+                "https://webbiesworld.com/wp-content/uploads/2020/11/Sweet-Home-920x425.jpg",
+                "Sweet Home",
+                "Drama",
+                1
+            )
+        )
+
+//      Save Me
+        tvShow.add(
+            TvShowEntity(
+                10,
+                "https://external-preview.redd.it/p3gnInkUmSUErtaAVP8AsU1TzJlAHsavMF66Fcd225s.jpg?auto=webp&s=c699a7f817accb3ff6085b03f145972194b7a840",
+                "Save Me",
+                "Thriller",
+                1
+            )
+        )
+
+//      Attack On Titan
+        tvShow.add(
+            TvShowEntity(
+                11,
+                "https://m.media-amazon.com/images/M/MV5BMTY5ODk1NzUyMl5BMl5BanBnXkFtZTgwMjUyNzEyMTE@._V1_.jpg",
+                "Attack On Titan",
+                "Action fiction",
                 4
             )
         )
+
+//      Masha and the Bear
         tvShow.add(
             TvShowEntity(
-                1,
-                "https://occ-0-2008-769.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABUpJhujhQAvjWyEkzhf6Z3ChDyZHZChxm8Q_3C6818BjZB3TC6hZ6rW_EpKl4NSoA6QQF187BYhiwzTwd7lY79ERH6o6.jpg?r=a73",
-                "Money Heist",
-                "TV Thrillers",
-                4
-            )
-        )
-        tvShow.add(
-            TvShowEntity(
-                1,
-                "https://occ-0-2008-769.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABUpJhujhQAvjWyEkzhf6Z3ChDyZHZChxm8Q_3C6818BjZB3TC6hZ6rW_EpKl4NSoA6QQF187BYhiwzTwd7lY79ERH6o6.jpg?r=a73",
-                "Money Heist",
-                "TV Thrillers",
-                4
-            )
-        )
-        tvShow.add(
-            TvShowEntity(
-                1,
-                "https://occ-0-2008-769.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABUpJhujhQAvjWyEkzhf6Z3ChDyZHZChxm8Q_3C6818BjZB3TC6hZ6rW_EpKl4NSoA6QQF187BYhiwzTwd7lY79ERH6o6.jpg?r=a73",
-                "Money Heist",
-                "TV Thrillers",
-                4
-            )
-        )
-        tvShow.add(
-            TvShowEntity(
-                1,
-                "https://occ-0-2008-769.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABUpJhujhQAvjWyEkzhf6Z3ChDyZHZChxm8Q_3C6818BjZB3TC6hZ6rW_EpKl4NSoA6QQF187BYhiwzTwd7lY79ERH6o6.jpg?r=a73",
-                "Money Heist",
-                "TV Thrillers",
-                4
-            )
-        )
-        tvShow.add(
-            TvShowEntity(
-                1,
-                "https://occ-0-2008-769.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABUpJhujhQAvjWyEkzhf6Z3ChDyZHZChxm8Q_3C6818BjZB3TC6hZ6rW_EpKl4NSoA6QQF187BYhiwzTwd7lY79ERH6o6.jpg?r=a73",
-                "Money Heist",
-                "TV Thrillers",
-                4
-            )
-        )
-        tvShow.add(
-            TvShowEntity(
-                1,
-                "https://occ-0-2008-769.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABUpJhujhQAvjWyEkzhf6Z3ChDyZHZChxm8Q_3C6818BjZB3TC6hZ6rW_EpKl4NSoA6QQF187BYhiwzTwd7lY79ERH6o6.jpg?r=a73",
-                "Money Heist",
-                "TV Thrillers",
-                4
-            )
-        )
-        tvShow.add(
-            TvShowEntity(
-                1,
-                "https://occ-0-2008-769.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABUpJhujhQAvjWyEkzhf6Z3ChDyZHZChxm8Q_3C6818BjZB3TC6hZ6rW_EpKl4NSoA6QQF187BYhiwzTwd7lY79ERH6o6.jpg?r=a73",
-                "Money Heist",
-                "TV Thrillers",
-                4
-            )
-        )
-        tvShow.add(
-            TvShowEntity(
-                1,
-                "https://occ-0-2008-769.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABUpJhujhQAvjWyEkzhf6Z3ChDyZHZChxm8Q_3C6818BjZB3TC6hZ6rW_EpKl4NSoA6QQF187BYhiwzTwd7lY79ERH6o6.jpg?r=a73",
-                "Money Heist",
-                "TV Thrillers",
-                4
-            )
-        )
-        tvShow.add(
-            TvShowEntity(
-                1,
-                "https://occ-0-2008-769.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABUpJhujhQAvjWyEkzhf6Z3ChDyZHZChxm8Q_3C6818BjZB3TC6hZ6rW_EpKl4NSoA6QQF187BYhiwzTwd7lY79ERH6o6.jpg?r=a73",
-                "Money Heist",
-                "TV Thrillers",
-                4
-            )
-        )
-        tvShow.add(
-            TvShowEntity(
-                1,
-                "https://occ-0-2008-769.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABUpJhujhQAvjWyEkzhf6Z3ChDyZHZChxm8Q_3C6818BjZB3TC6hZ6rW_EpKl4NSoA6QQF187BYhiwzTwd7lY79ERH6o6.jpg?r=a73",
-                "Money Heist",
-                "TV Thrillers",
-                4
+                12,
+                "https://i.ytimg.com/vi/8JqHP4dkT5U/maxresdefault.jpg",
+                "Masha and the Bear",
+                "Adventure",
+                8
             )
         )
         return tvShow

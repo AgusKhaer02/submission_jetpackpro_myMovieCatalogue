@@ -1,4 +1,4 @@
-package com.agusjetpacksubmission.mymoviecatalogue.detail
+package com.agusjetpacksubmission.mymoviecatalogue.detailMovie
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -7,22 +7,22 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.ViewModelProvider
 import com.agusjetpacksubmission.mymoviecatalogue.R
-import com.agusjetpacksubmission.mymoviecatalogue.databinding.ActivityDetailBinding
+import com.agusjetpacksubmission.mymoviecatalogue.databinding.ActivityDetailMovieBinding
 import com.agusjetpacksubmission.mymoviecatalogue.entities.MovieEntity
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.bumptech.glide.request.RequestOptions
 
 
-class DetailActivity : AppCompatActivity() {
+class DetailMovieActivity : AppCompatActivity() {
     companion object{
         const val EXTRA_MOVIE_ID = "movieId"
     }
 
-    private lateinit var binding : ActivityDetailBinding
+    private lateinit var binding : ActivityDetailMovieBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityDetailBinding.inflate(layoutInflater)
+        binding = ActivityDetailMovieBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         setSupportActionBar(binding.toolbar)
@@ -47,9 +47,6 @@ class DetailActivity : AppCompatActivity() {
                 setSelectedMovies(viewModel.getMovie())
             }
         }
-
-
-
     }
 
     @SuppressLint("SetTextI18n")
@@ -65,7 +62,6 @@ class DetailActivity : AppCompatActivity() {
         binding.collapsingToolbar.setExpandedTitleColor(
             ContextCompat.getColor(this, R.color.white)
         )
-
 
         binding.tvTitle.text = movieEntity.movieTitle
         binding.tvCategory.text = movieEntity.movieCategory

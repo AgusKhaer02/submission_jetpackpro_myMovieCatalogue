@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.agusjetpacksubmission.mymoviecatalogue.R
 import com.agusjetpacksubmission.mymoviecatalogue.databinding.ListMovieBinding
-import com.agusjetpacksubmission.mymoviecatalogue.detail.DetailActivity
+import com.agusjetpacksubmission.mymoviecatalogue.detailMovie.DetailMovieActivity
 import com.agusjetpacksubmission.mymoviecatalogue.entities.MovieEntity
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
@@ -33,7 +33,6 @@ class MovieAdapter : RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
 
     override fun getItemCount(): Int = listMovies.size
 
-
     class MovieViewHolder(private val binding: ListMovieBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bind(movie: MovieEntity) {
             with(binding) {
@@ -43,8 +42,8 @@ class MovieAdapter : RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
                 tvViewer.text = movie.viewer.toString()
 
                 itemView.setOnClickListener {
-                    val intent = Intent(itemView.context, DetailActivity::class.java)
-                    intent.putExtra(DetailActivity.EXTRA_MOVIE_ID, movie.movieId)
+                    val intent = Intent(itemView.context, DetailMovieActivity::class.java)
+                    intent.putExtra(DetailMovieActivity.EXTRA_MOVIE_ID, movie.movieId)
                     itemView.context.startActivity(intent)
                 }
 

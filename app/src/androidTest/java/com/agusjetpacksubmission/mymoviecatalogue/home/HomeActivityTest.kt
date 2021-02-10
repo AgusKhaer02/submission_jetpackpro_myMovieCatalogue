@@ -31,12 +31,6 @@ class HomeActivityTest{
     fun loadDetailMovies(){
         onView(withId(R.id.rv_movie)).perform(RecyclerViewActions.actionOnItemAtPosition<RecyclerView.ViewHolder>(0, ViewActions.click()))
 
-//      Image Movie
-        onView(withId(R.id.img_movie)).check(matches(isDisplayed()))
-        onView(withId(R.id.img_movie2)).check(matches(isDisplayed()))
-
-        onView(withId(R.id.img_movie)).check(matches(withText(dummyMovie[0].movieImage)))
-        onView(withId(R.id.img_movie2)).check(matches(withText(dummyMovie[0].movieImage)))
 //      Title
         onView(withId(R.id.tv_title)).check(matches(isDisplayed()))
         onView(withId(R.id.tv_title)).check(matches(withText(dummyMovie[0].movieTitle)))
