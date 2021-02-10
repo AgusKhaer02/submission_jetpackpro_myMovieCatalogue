@@ -3,16 +3,13 @@ package com.agusjetpacksubmission.mymoviecatalogue.home
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.graphics.Color
-import android.graphics.PorterDuff
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.telephony.PhoneNumberUtils
 import android.widget.PopupMenu
 import android.widget.Toast
-import androidx.core.content.ContextCompat
+import androidx.appcompat.app.AppCompatActivity
 import com.agusjetpacksubmission.mymoviecatalogue.R
 import com.agusjetpacksubmission.mymoviecatalogue.databinding.ActivityMainBinding
-import com.google.android.material.tabs.TabLayout
 
 class HomeActivity : AppCompatActivity() {
 

@@ -14,7 +14,8 @@
         app:layout_constraintBottom_toTopOf="@+id/tv_Author"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="TODO" />
 
     <TextView
         android:id="@+id/tv_AppName"
